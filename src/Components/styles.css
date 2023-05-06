@@ -121,6 +121,7 @@
 
 label{
     height: 20px;
+    display: flex;
 }
 
 .text{
@@ -137,3 +138,17 @@ label{
 .right-align{
     text-align: right;
 }
+
+@media screen and (max-width: 500px){    
+    .light{
+        width: 33%;
+        height: 50%;
+    }
+  }
+
+  @media screen and (max-width: 400px){    
+    .light{
+        width: 38%;
+        height: 50%;
+    }
+  }
