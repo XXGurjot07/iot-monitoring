@@ -3,8 +3,11 @@ import "./styles.css"
 
 const GreenLight = ({Lno}) => {
     return (
-        <div className='light green' id={Lno}>
-        </div>
+        <>
+            <div className='light green' id={Lno}>
+            <label>{Lno}</label>
+            </div>
+        </>
     );
 }
 

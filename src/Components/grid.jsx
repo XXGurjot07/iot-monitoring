@@ -13,9 +13,9 @@ const Grid = ({ custom, lightId }) => {
 
     return (
         <div className='card-grid' id={customId}>
-            <GreenLight Lno={greenId} />
-            <YellowLight Lno={yellowId} />
             <RedLight Lno={redId} />
+            <YellowLight Lno={yellowId} />
+            <GreenLight Lno={greenId} />
         </div>
     );
 }
