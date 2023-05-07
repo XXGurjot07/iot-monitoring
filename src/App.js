@@ -8,7 +8,10 @@ const light = ["#R1", "#Y1", "#G1", "#R2", "#Y2", "#G2", "#R3", "#Y3", "#G3", "#
 
 function App() {
 
-  var data = [0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0];
+  //UPDATE THIS VARIABLE data TO UPDATE STATUS OF LIGHTS
+  //eslint-disable-next-line
+  var data = [0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0];
+  
 
   function switchState (id, state) {
     if (state === 1) {
