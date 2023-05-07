@@ -1,6 +1,6 @@
 ## How it works?
 Main File : index.js <br />
-<h2> Firstly run, `npm install` to install all dependencies </h2>
+<h2> Firstly run, `npm install` inside this directory to install all dependencies </h2>
 <br />
 After that you can run following scripts,
 
